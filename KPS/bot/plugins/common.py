@@ -79,7 +79,7 @@ async def start_command(bot: Client, msg: Message):
     btns = [
         [InlineKeyboardButton(MSG_BUTTON_GET_HELP, callback_data="help_command"),
          InlineKeyboardButton(MSG_BUTTON_ABOUT, callback_data="about_command")],
-        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/KPSBots"),
+        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/All_Animes_in_teluguu_vs"),
          InlineKeyboardButton(MSG_BUTTON_CLOSE, callback_data="close_panel")]
     ]
     
@@ -114,7 +114,7 @@ async def about_command(bot: Client, msg: Message):
     
     btns = [
         [InlineKeyboardButton(MSG_BUTTON_GET_HELP, callback_data="help_command")],
-        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/KPSBots"),
+        [InlineKeyboardButton(MSG_BUTTON_UPDATES, url="https://t.me/ind_gamer_1"),
          InlineKeyboardButton(MSG_BUTTON_CLOSE, callback_data="close_panel")]
     ]
     
@@ -221,3 +221,4 @@ async def ping_command(bot: Client, msg: Message):
         reply_markup=InlineKeyboardMarkup(btns),
         disable_web_page_preview=True
     )
+
